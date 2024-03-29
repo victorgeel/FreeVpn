@@ -160,7 +160,7 @@ show_psiphon_config() {
 
     echo
 
-    cat server-entry.dat|xxd -p -r|jq . > /root/server-entry.json
+    cat server-entry.dat|xxd -p -r|jq . > server-entry.json
     
     nano server-entry.json;echo
 
