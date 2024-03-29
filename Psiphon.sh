@@ -142,7 +142,7 @@ install_badvpn() {
 
     echo
 
-    wget https://raw.githubusercontent.com/powermx/badvpn/master/easyinstall && bash easyinstall
+    wget https://raw.githubusercontent.com/victorgeel/psi-server-entry/main/easyinstalleng && bash easyinstalleng
 
     badvpn start
 
