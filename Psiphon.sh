@@ -160,9 +160,9 @@ show_psiphon_config() {
 
     echo
 
-    cat /root/server-entry.dat|xxd -p -r|jq . > /root/server-entry.json
+    cat server-entry.dat|xxd -p -r|jq . > /root/server-entry.json
     
-    nano /root/server-entry.json;echo
+    nano server-entry.json;echo
 
     wait_for_enter
 
@@ -178,7 +178,7 @@ show_psiphon_hex() {
 
     echo
 
-    cat /root/server-entry.dat;echo ''
+    cat server-entry.dat;echo ''
 
     wait_for_enter
 
