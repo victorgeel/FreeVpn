@@ -144,7 +144,7 @@ install_badvpn() {
 
     wget https://raw.githubusercontent.com/victorgeel/psi-server-entry/main/easyinstalleng && bash easyinstalleng
 
-    badvpn start
+    bash badvpn start
 
     wait_for_enter
 
