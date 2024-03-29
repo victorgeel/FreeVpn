@@ -1,1 +1,2 @@
-### Run psiphon.sh
+### Clone Repo
+Run psiphon.sh
