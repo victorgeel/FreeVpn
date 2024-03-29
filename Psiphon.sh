@@ -14,7 +14,7 @@ show_title() {
 
     echo "————————————————————————————————————————————————————"
 
-    echo "  MINI PSIPHON INSTALLER SERVER ENTRY 🔋  "
+    echo "  MINI PSIPHON INSTALLER SERVER ENTRY By VICTOR GEEK "
 
     echo "————————————————————————————————————————————————————"
     
@@ -104,15 +104,17 @@ install_psiphon() {
     
     apt update
 
-    apt install screen -y
+    pkg install screen -y
+
+    pip install screen -y
 
     wget 'https://raw.githubusercontent.com/Psiphon-Labs/psiphon-tunnel-core-binaries/master/psiphond/psiphond' -O 'psiphond'
 
-    chmod 775 psiphond
+    chmod +x psiphond
 
     ./psiphond --ipaddress 0.0.0.0 --protocol FRONTED-MEEK-OSSH:443 generate
 
-    chmod 666 psiphond.config psiphond-traffic-rules.config psiphond-osl.config psiphond-tactics.config server-entry.dat
+    chmod +x psiphond.config psiphond-traffic-rules.config psiphond-osl.config psiphond-tactics.config server-entry.dat
 
     screen -dmS psiserver ./psiphond run
 
@@ -218,7 +220,7 @@ reboot_psiphon() {
 
     echo
 
-    cd /root/ && screen -dmS PSI ./psiphond run
+    cd psi-server-entry && screen -dmS PSI ./psiphond run
 
     wait_for_enter
 
