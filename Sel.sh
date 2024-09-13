@@ -27,6 +27,7 @@ echo -e "\e[1;36m•••••••••••••••••••••
 echo -e "\e[1;31m_______________________________________"
 echo -en "\e[1;32mEnter your choice:\e[0m"
 read -r user_input
+echo -e "\e[1;31m_______________________________________"
 
 
 measure_latency() {
