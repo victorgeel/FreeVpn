@@ -4,9 +4,9 @@ clear
 
 
 echo -e "\e[1;35m_____________________________________"
-echo -e "\e[1;35m. \e[1;31mG\e[1;32mI\e[1;33mT\e[1;34mH\e[1;35mU\e[1;36mB\e[0m:\e[4;34mhttps://github.com/victorgeel\e[0m \e[1;35m"
+echo -e "\e[1;35m\e[1;31mG\e[1;32mI\e[1;33mT\e[1;34mH\e[1;35mU\e[1;36mB\e[0m:\e[4;34mhttps://github.com/victorgeel\e[0m\e[1;35m"
 echo -e "\e[1;35m_____________________________________"
-echo ""
+echo -e "\e[1;32m-------------------------------------"
 
 echo -e "\e[1;36m_____________________________________"
 echo -e "\e[1;32mPlease choose an option:(Type 99 to install selector)\e[0m"
