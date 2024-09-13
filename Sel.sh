@@ -287,7 +287,7 @@ elif [ "$user_input" -eq 9 ]; then
 elif [ "$user_input" -eq 10 ]; then
     bash <(curl -fsSL https://raw.githubusercontent.com/Kolandone/wireguard-v2hiddify/main/install.sh)
 elif [ "$user_input" -eq 99 ]; then
-    bash <(curl -fsSL https://raw.githubusercontent.com/Kolandone/Selector/main/install.sh)
+    bash <(curl -fsSL https://raw.githubusercontent.com/victorgeel/FreeVpn/main/install.sh)
     echo -e "\e[1;32mAfter this, you can run the Selector with \e[1;36mkl \e[1;32mcommand\e[0m"
     else 
     echo "Invalid input. Please enter between 1 and 10"
