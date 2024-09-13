@@ -21,7 +21,8 @@ echo -e "\e[1;36m8.\e[1;33mRun Worker Creator (install it first)\e[0m"
 echo -e "\e[1;36m9.\e[1;33m Free subscription link (Hin VPN)\e[0m"
 echo -e "\e[1;36m10.\e[1;33mWireguard cfg for Hiddify & v2ray\e[0m"
 echo -e "\e[1;36m•••••••••••••••••••••••••••••••••••••"
-echo -e "\e[1;35m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
+echo -e "\e[1;35m To exit: Press Ctrl+c \e[0m"
+echo -e "\e[1;36m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
 echo -en "\e[1;32mEnter your choice:\e[0m"
 read -r user_input
 
