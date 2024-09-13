@@ -7,6 +7,9 @@ bash two sh
 After installation ..
 use command kl to return run script.,.
 
+### Disclaimer 
+I not own those all scripts.....
+
 ### INSTALLATION 
 
 `git clone https://github.com/victorgeel/FreeVpn.git`
