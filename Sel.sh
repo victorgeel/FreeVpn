@@ -3,14 +3,12 @@ clear
 
 
 
-echo -e "\e[1;35m*****************************************"
-echo -e "\e[1;35m*\e[0m \e[1;31mY\e[1;32mO\e[1;33mU\e[1;34mT\e[1;35mU\e[1;36mB\e[1;37mE\e[0m : \e[4;34mKOLANDONE\e[0m         \e[1;35m"
-echo -e "\e[1;35m*\e[0m \e[1;31mT\e[1;32mE\e[1;33mL\e[1;34mE\e[1;35mG\e[1;36mR\e[1;37mA\e[1;31mM\e[0m : \e[4;34mKOLANDJS\e[0m         \e[1;35m"
-echo -e "\e[1;35m*\e[0m \e[1;31mG\e[1;32mI\e[1;33mT\e[1;34mH\e[1;35mU\e[1;36mB\e[0m : \e[4;34mhttps://github.com/Kolandone\e[0m \e[1;35m"
-echo -e "\e[1;35m*****************************************"
+echo -e "\e[1;35m_________________________________________"
+echo -e "\e[1;35m*\e[0m \e[1;31mG\e[1;32mI\e[1;33mT\e[1;34mH\e[1;35mU\e[1;36mB\e[0m : \e[4;34mhttps://github.com/victorgeel\e[0m \e[1;35m"
+echo -e "\e[1;35m_________________________________________"
 echo ""
 
-echo -e "\e[1;36m*****************************************"
+echo -e "\e[1;36m_________________________________________"
 echo -e "\e[1;32mPlease choose an option:(Type 99 to install selector)\e[0m"
 echo -e "\e[1;36m1. \e[1;33mIPv4 scan\e[0m"
 echo -e "\e[1;36m2. \e[1;33mIPv6 scan\e[0m"
@@ -22,7 +20,7 @@ echo -e "\e[1;36m7. \e[1;33mInstall Worker Creator\e[0m"
 echo -e "\e[1;36m8. \e[1;33mRun Worker Creator (install it first)\e[0m"
 echo -e "\e[1;36m9. \e[1;33m Free subscription link (Hin VPN)\e[0m"
 echo -e "\e[1;36m10. \e[1;33mwireguard config for Hiddify and v2ray\e[0m"
-echo -e "\e[1;36m*****************************************"
+echo -e "\e[1;36m_________________________________________"
 echo -en "\e[1;32mEnter your choice:\e[0m"
 read -r user_input
 
