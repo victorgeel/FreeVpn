@@ -4,13 +4,13 @@ clear
 
 
 echo -e "\e[1;35m_____________________________________"
-echo -e "\e[1;35m\e[1;31mG\e[1;32mI\e[1;33mT\e[1;34mH\e[1;35mU\e[1;36mB\e[0m:\e[4;34mhttps://github.com/victorgeel\e[0m\e[1;35m"
+echo -e "\e[1;35m\e[1;31mG\e[1;32mI\e[1;33mT\e[1;34mH\e[1;35mU\e[1;36mB\e[0m:\e[4;36mhttps://github.com/victorgeel\e[0m\e[1;36m"
 echo -e "\e[1;35m_____________________________________"
 echo -e "\e[1;32m-------------------------------------"
 
 echo -e "\e[1;36m_____________________________________"
-echo -e "\e[1;32mPlease choose an option:\e[0m"
 echo -e "\e[1;32mInstall to FreeVpn:type 99\e[0m"
+echo -e "\e[1;32mPlease choose an option:\e[0m"
 echo -e "\e[1;36m1.\e[1;33mIPv4 scan\e[0m"
 echo -e "\e[1;36m2.\e[1;33mIPv6 scan\e[0m"
 echo -e "\e[1;36m3.\e[1;33mV2ray and MahsaNG wireguard config\e[0m"
