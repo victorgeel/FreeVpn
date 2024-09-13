@@ -10,7 +10,7 @@ echo -e "\e[1;32m-------------------------------------"
 
 echo -e "\e[1;36m_____________________________________"
 echo -e "\e[1;32mPlease choose an option:\e[0m"
-echo -e "\e[1;32m:(Type 99 to install selector)\e[0m"
+echo -e "\e[1;32mInstall to FreeVpn:type 99\e[0m"
 echo -e "\e[1;36m1.\e[1;33mIPv4 scan\e[0m"
 echo -e "\e[1;36m2.\e[1;33mIPv6 scan\e[0m"
 echo -e "\e[1;36m3.\e[1;33mV2ray and MahsaNG wireguard config\e[0m"
