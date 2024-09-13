@@ -8,7 +8,7 @@ echo -e "\e[1;35m-------------------------------------"
 echo -e "\e[1;32m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
 
 echo -e "\e[1;36m°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°"
-echo -e "\e[1;34mInstall to FreeVpn:\e[1;35mtype\e[1;32m99\e[0m"
+echo -e "\e[1;35mInstall to FreeVpn ∆∆ \e[1;34mtype°°°° \e[1;32m99\e[0m"
 echo -e "\e[1;32mPlease choose an option:\e[0m"
 echo -e "\e[1;36m1.\e[1;33mIPv4 scan\e[0m"
 echo -e "\e[1;36m2.\e[1;33mIPv6 scan\e[0m"
