@@ -1,3 +1,3 @@
 apt update -y
-curl -o $PREFIX/bin/kl https://raw.githubusercontent.com/Kolandone/Selector/main/Sel.sh
+curl -o $PREFIX/bin/kl https://raw.githubusercontent.com/victorgeel/FreeVpn/main/Sel.sh
 chmod +x $PREFIX/bin/kl
